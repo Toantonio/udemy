@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>posicionamentos (static, relative, absolute e fixed)</title>
+        <meta charset="utf-8">
+        <style type="text/css">
+            body{
+                background: #007fc7;
+            }
+            #container{
+                background: #fff;
+                width: 800px;
+                margin: 10px auto;
+            }
+            h1{
+                /*position: static; não altera o elemento*/
+            }
+            p{
+                width: 300px;
+            }
+            .relative{
+                border: 1px solid red;
+                /*position: relative; move a caixa de posisão conforme o parametro q e dado a ele*/
+                position: relative;/* top, right direita, bottem ,left esquerda*/
+                /*top: 20px;*/ /*top: -20px;*/
+               /* left: 80px;*/
+                bottom: -20px
+            
+            }
+        </style>
+    </head>
+    <body>
+        <div id="container">
+        <h1>Posicionamento</h1>
+        <p>
+            P1 Lorem ipsum dolor sit amet consectetur 
+            adipisicing elit. Debitis, veniam cupiditate et,
+            accusamus ab quibusdam vel ipsam incidunt fuga
+            atque dolor nulla dolorem consequatur est
+            quisquam veritatis eius nesciunt beatae!
+        </p>
+        <p class="relative">
+           P2 Lorem ipsum dolor sit amet consectetur 
+           adipisicing elit. Debitis, veniam cupiditate et,
+           accusamus ab quibusdam vel ipsam incidunt fuga
+           atque dolor nulla dolorem consequatur est
+           quisquam veritatis eius nesciunt beatae!
+       </p>
+       <p>
+        P3 Lorem ipsum dolor sit amet consectetur 
+       adipisicing elit. Debitis, veniam cupiditate et,
+       accusamus ab quibusdam vel ipsam incidunt fuga
+       atque dolor nulla dolorem consequatur est
+       quisquam veritatis eius nesciunt beatae!
+   </p>
+        </div>
+    </body>
+</html>

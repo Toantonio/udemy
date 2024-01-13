@@ -1,0 +1,53 @@
+/* ul{
+  
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    padding:5px 20px;
+    border: 1px solid red;
+    background: url(img/seta.png) no-repeat left center;
+  
+} */
+
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    float: left;
+    /* display: block; */
+    /* display: inline-flex; */
+}
+ul a {
+
+    
+    /* border-radius: 15px; */
+    /* border: 1px solid red; */
+    width: 200px;/*a largura da img e de 400px redus pela merade pra ter o efeito desejado*/
+    height: 40px;
+    display: block;
+    color: #000;
+    text-decoration: none;
+    text-indent: 40px;
+    line-height: 40px; /*definea altura da linha do texto  sem alterar a caixa */
+    background:  #f7b600 url(img/menu.png) no-repeat left bottom; /*nuda para left e bottom*/
+}
+a:hover{
+    background-position:right bottom ; /*isso mudara a pisisao da imagem*/
+    background-color: #f99200;
+    color: #fff;
+} 
+/* a:hover, .selecionado a{
+    background-position:right bottom ; isso mudara a pisisao da imagem
+    background-color: #f99200;
+    color: #fff;
+ }  */
+ #home  #navegacao .home a,
+ #sobre  #navegacao .sobre a,
+ #servico #navegacao .servico a{
+    background-position:right bottom ; /*isso mudara a pisisao da imagem*/
+    background-color: #f99200;
+    color: #fff;
+ }

@@ -1,0 +1,27 @@
+.conteudo{
+    border: 1px solid red;
+   /* padding-top: 20px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+    padding-left: 70px;*/
+
+
+    /*padding: 20px 50px 30px 70px;*/
+
+   /* margin-top: 20px;
+    margin-right: 30px;
+    margin-left: 70px;
+    margin-bottom: 20px;*/
+
+    margin: 10px;
+
+
+
+
+
+    width: 150px;
+}.conteudo2{
+    margin: 5px;
+    width: 150px;
+    border: 1px solid red;
+}
